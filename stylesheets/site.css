@@ -1,8 +1,5 @@
-.img-circle {
-  border-radius: 50%; }
-
-.full-width {
-  width: 80%; }
+body {
+  font-family: 'Open Sans', sans-serif; }
 
 .color-ruby {
   color: #c31902; }
