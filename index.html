@@ -11,13 +11,15 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
     <link href="/stylesheets/site.css" rel="stylesheet" />
 
-    <script src="/javascripts/site.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="/javascripts/site.js"></script>
   </head>
   <body class="bg-light">
     <!-- PROFILE -->
-<div class="card mx-auto col-lg-6 my-md-3">
+<div class="card shadow mx-auto col-lg-6 my-md-3">
   <div class="card-body row">
     <div class="col-12 col-md-4 text-center">
       <img src="/images/bellef_profile.jpg" alt="François Belle" class="rounded-circle" style="width: 80%;" />
@@ -32,7 +34,7 @@
         <strong class="color-ruby">Ruby on Rails</strong> backend developer, I have experience with RESTful JSON APIs in various companies in France and Canada. I'm also a teacher at Le Wagon coding bootcamp.
       </p>
       <p>
-        I like building things, learning from people better than me and sharing my experiences with others.
+        I like building things, learning from people and sharing my experiences with others.
         By building things I obviously mean "virtual" with programming tools like Ruby, Rails, Javascript etc. but also "IRL" things with wood, nails, glue, whatever!
       </p>
       <p>
@@ -41,6 +43,8 @@
     </div>
   </div>
 </div>
+
+<!-- TODO: Add my skills at the bottom of my profile -->
 
 <div class="row mx-auto col-lg-6 py-3">
   <div class="col-12 col-md-8 text-right border-right border-secondary">
@@ -61,14 +65,14 @@
 
 
 <!-- COMPANIES -->
-<div class="card mx-auto col-lg-6 my-md-3">
+<div class="card shadow mx-auto col-lg-6 my-md-3">
   <div class="card-body">
     <h4 class="card-title mb-0">They trust me</h4>
 
     <hr>
     <div class="row my-3">
       <div class="col-md-2 text-center">
-        <a href="https://www.lewagon.com/"><img src="/images/le_wagon_logo.png" alt="Le Wagon" class="rounded mb-3 my-md-3" style="width: 6em;" /></a>
+        <a href="https://www.lewagon.com/"><img src="/images/logos/le_wagon.png" alt="Le Wagon" class="rounded mb-3 my-md-3" style="width: 6em;" /></a>
       </div>
       <div class="col-md-10">
         <p>At <strong>Le Wagon</strong> coding bootcamp, I can help people who want to make a big change in their lives.</p>
@@ -78,7 +82,7 @@
     <hr>
     <div class="row my-3">
       <div class="col-md-2 text-center">
-        <a href="https://www.koolicar.com/"><img src="/images/koolicar_logo.png" alt="Koolicar" class="rounded mb-3 my-md-3" style="width: 6em;" /></a>
+        <a href="https://www.koolicar.com/"><img src="/images/logos/koolicar.png" alt="Koolicar" class="rounded mb-3 my-md-3" style="width: 6em;" /></a>
       </div>
       <div class="col-md-10">
         <p><strong>Koolicar</strong> is a P2P car-sharing service that allows individual car owners to rent out their cars for precise slots of time.</p>
@@ -89,7 +93,7 @@
     <hr>
     <div class="row my-3">
       <div class="col-md-2 text-center">
-        <a href="https://www.tilkee.com/"><img src="/images/tilkee_logo.png" alt="Tilkee" class="rounded mb-3 my-md-3" style="width: 6em;" /></a>
+        <a href="https://www.tilkee.com/"><img src="/images/logos/tilkee.png" alt="Tilkee" class="rounded mb-3 my-md-3" style="width: 6em;" /></a>
       </div>
       <div class="col-md-10">
         <p><strong>Tilkee</strong> is an innovative Saas solution for proposals follow-up & sales process tracking. It allows you to know how, when and where your commercial bid is read.</p>
@@ -118,7 +122,38 @@
 </div>
 
 
-<!-- Side Projects -->
+<!-- SIDE PROJECTS -->
+<div class="card shadow mx-auto col-lg-6 my-md-3">
+  <div class="card-body">
+    <h4 class="card-title mb-0">Side projects</h4>
+    <hr>
+    <div class="row my-3">
+      <div class="col-md-6 text-center">
+        <div class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="https://chrome.google.com/webstore/detail/bookmarks-in-google-resul/oamlmgmgmdajeceifmmhhlkkhpgbeipb">
+        <img src="/images/projects/bm_finder_1.png" alt="Bookmarks finder" class="rounded d-block w-100" />
+      </a>
+    </div>
+  </div>
+</div>
+
+      </div>
+      <div class="col-md-6">
+        <h4>
+          <a href="https://chrome.google.com/webstore/detail/bookmarks-in-google-resul/oamlmgmgmdajeceifmmhhlkkhpgbeipb">Bookmarks Finder</a>
+        </h4>
+
+        <p>I've always been struggling with all my Chrome bookmarks: hundreds of them but no time to sort them so they all finish in the same "Devtools" or "Watch later" folder. I had to find an efficient way to search through my bookmarks smoothly and at the right time.</p>
+        <p>This extension shows the bookmarks that match your search keywords at the top of the Google results</p>
+        <p>Type your keywords in Google search bar and the matching bookmarks will be displayed at the top of the results.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <!-- Books / Movies -->
 <!-- Hobbies -->
 
